@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WanderLust Travel</title>
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">WanderLust</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <h1>Discover Your Next Adventure</h1>
+      <p>Embark on unforgettable journeys to the world's most amazing places.</p>
+      <a href="#packages" class="btn-primary">Explore Packages</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About WanderLust</h2>
+      <p>At WanderLust, we specialize in crafting personalized travel experiences that cater to your unique desires. From serene beaches to bustling cities, our curated packages ensure memorable adventures.</p>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+      <h2>Top Destinations</h2>
+      <div class="destination-grid">
+        <div class="destination-card">
+          <img src="images/eiffel-tower-paris-france.jpg" alt="Eiffel Tower in Paris" />
+          <h3>Paris, France</h3>
+          <p>The city of lights awaits with its rich history and exquisite cuisine.</p>
+        </div>
+        <div class="destination-card">
+          <img src="images/Bingin Beach Bali.jpg" alt="Beach in Bali" />
+          <h3>Bali, Indonesia</h3>
+          <p>Experience tranquil beaches and vibrant culture in Bali.</p>
+        </div>
+        <div class="destination-card">
+          <img src="images/New York Skyline.jpeg" alt="New York City skyline" />
+          <h3>New York, USA</h3>
+          <p>Explore the bustling streets and iconic landmarks of the Big Apple.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+      <h2>Exclusive Travel Packages</h2>
+      <div class="package-list">
+        <div class="package-item">
+          <h3>Romantic Getaway</h3>
+          <p>Perfect for couples seeking a memorable escape.</p>
+          <a href="#" class="btn-secondary">View Details</a>
+        </div>
+        <div class="package-item">
+          <h3>Family Adventure</h3>
+          <p>Fun-filled activities for the whole family.</p>
+          <a href="#" class="btn-secondary">View Details</a>
+        </div>
+        <div class="package-item">
+          <h3>Solo Explorer</h3>
+          <p>Tailored experiences for the independent traveler.</p>
+          <a href="#" class="btn-secondary">View Details</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-carousel">
+        <div class="testimonial">
+          <p>"WanderLust made our honeymoon unforgettable. Every detail was perfect!"</p>
+          <cite>– Priya & Raj</cite>
+        </div>
+        <div class="testimonial">
+          <p>"The family package was amazing. Kids had a blast, and so did we!"</p>
+          <cite>– The Mehta Family</cite>
+        </div>
+        <div class="testimonial">
+          <p>"Traveling solo was never this easy and enjoyable. Highly recommend!"</p>
+          <cite>– Ananya S.</cite>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Get in Touch</h2>
+      <form action="submit-form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 WanderLust Travel Agency. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#privacy">Privacy Policy</a></li>
+      <li><a href="#terms">Terms of Service</a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
